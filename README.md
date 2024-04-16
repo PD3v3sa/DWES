@@ -2,4 +2,4 @@
 ## Apuntes PHP
 Curso PHP y PDF. Curso completo desde nivel básico hasta conceptos avanzados
 
-[Ver apuntes](https://github.com/PD3v3sa/MarkDown/PHP/php1.pdf)
+[Ver apuntes](php1.pdf)
