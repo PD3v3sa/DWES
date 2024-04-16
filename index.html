@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacho Iborra Baeza</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Página personal de Nacho Iborra Baeza</h1>
+        <img id="personaje" class="personaje" src="img/personaje.gif">
+        <nav>
+            <ul>
+                <li><a href="javascript:desactivar('sobremi', 0)"><img class="personaje hueco" style="display:hidden">&nbsp;Sobre mí</a></li>
+                <li><a href="javascript:desactivar('materiales', 1)"><img class="personaje hueco" style="display:hidden">&nbsp;Materiales</a></li>
+                <li><a href="javascript:desactivar('cursos', 2)"><img class="personaje hueco" style="display:hidden">&nbsp;Cursos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="seccion" id="sobremi">
+        <h2>Sobre mí</h2>
+        <p>Mi nombre es Nacho Iborra. Soy ingeniero informático por la Universidad de Alicante, y profesor de Enseñanza Secundaria y Ciclos Formativos.</p>
+        <p>Trabajo en el I.E.S. San Vicente, en la localidad de San Vicente del Raspeig, provincia de Alicante, y actualmente imparto módulos de Ciclos Formativos relacionados con el ámbito de la programación y el desarrollo de aplicaciones.</p>
+        <p>Concretamente imparto los módulos de <strong>Programación</strong> en el ciclo de DAM y el módulo de <strong>Programación de Inteligencia Artificial</strong> en el Curso de Especialización de Inteligencia Artificial y Big Data. Además, he impartido a lo largo de estos años otros módulos:</p> 
+        <ul>
+            <li>Programación de Servicios y Procesos (2º DAM)</li>
+            <li>Entornos de Desarrollo (1º DAM)</li>    
+            <li>Despliegue de Aplicaciones Web (2º DAW)</li>
+            <li>Implantación de Aplicaciones Web (2º ASIR)</li>
+            <li>Lenguajes de Marcas (1º DAM)</li>
+        </ul>
+        <p>En las demás secciones de esta página personal puedes encontrar enlaces a los materiales que he utilizado en mis clases y otros cursos que imparto o he impartido, así como cursos y vídeos online disponibles en YouTube o el portal de cursos Udemy (estos últimos son de pago). Espero que sean de tu interés :-).</p>
+        <p>Para más información puedes contactarme e:<br><strong>nachoiborra@iessanvicente.com</strong>.</p>
+    </section>
+
+    <section class="seccion" id="materiales">
+        <h2>Materiales</h2>
+        <p>A continuación muestro un listado de los distintos materiales escritos que tengo sobre diferentes cursos.</p>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/entornos/img/logo_ed.svg">
+            </div>
+            <div class="contenido">
+                <h3>Entornos de Desarrollo</h3>
+                <p>Materiales para el módulo de Entornos de Desarrollo del Ciclo Formativo de Grado Superior de DAM/DAW. Elaborados en inglés, tanto en formato diapositivas como apuntes.</p>
+                <p><a href="https://nachoiborraies.github.io/entornos/" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/csharp/img/logo_csharp.svg">
+            </div>
+            <div class="contenido">
+                <h3>Programación C#</h3>
+                <p>Curso de Programación en C#, en formato diapositivas, para el módulo de <em>Programación</em> del Ciclo Formativo de Grado Superior de DAM/DAW</p>
+                <p><a href="https://nachoiborraies.github.io/csharp" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/java/img/logo_java.svg">
+            </div>
+            <div class="contenido">
+                <h3>Programación Java</h3>
+                <p>Curso de Programación en Java, con materiales en inglés. Tanto diapositivas como apuntes en formato web y PDF. Curso completo desde nivel básico hasta conceptos avanzados</p>
+                <p><a href="https://nachoiborraies.github.io/java" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/python/img/logo_python.svg">
+            </div>
+            <div class="contenido">
+                <h3>Programación Python</h3>
+                <p>Apuntes de programación en Python, desde conceptos básicos del lenguaje a un uso avanzado con librerías y tratamiento de datos.</p>
+                <p><a href="https://nachoiborraies.github.io/python" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/r/img/logo_r.svg">
+            </div>
+            <div class="contenido">
+                <h3>Programación R</h3>
+                <p>Apuntes de programación en lenguaje R. Se repasan algunos conceptos básicos del lenguaje (elementos básicos, estructuras de control, funciones, listas...), para después centrarnos en cómo usar R para el análisis y tratamiento de datos, y algunas tareas de <em>machine learning</em>.</p>
+                <p><a href="https://nachoiborraies.github.io/r" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/htmlcss/img/logo_htmlcss.png">
+            </div>
+            <div class="contenido">
+                <h3>Diseño web con HTML y CSS</h3>
+                <p>Apuntes de diseño web con HTML 5 y CSS 3. Se ven conceptos básicos y avanzados tanto de HTML como de CSS, incluyendo nociones diseño adaptativo y uso de frameworks como Bootstrap.</p>
+                <p><a href="https://nachoiborraies.github.io/htmlcss" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/javascript/img/logo_js.svg">
+            </div>
+            <div class="contenido">
+                <h3>Desarrollo web con JavaScript</h3>
+                <p>Apuntes de desarrollo web con JavaScript, en el lado del cliente. Se cubren los conceptos básicos del lenguaje, así como su aplicación práctica en páginas web: acceso al documento, validación de formularios, gestión de eventos...</p>
+                <p><a href="https://nachoiborraies.github.io/javascript" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://www.php.net/images/logos/php-logo.svg">
+            </div>
+            <div class="contenido">
+                <h3>Desarrollo web con PHP</h3>
+                <p>Apuntes de desarrollo web con PHP, en el lado del servidor. Se cubren los conceptos básicos del lenguaje, y su uso para procesar peticiones, definir la estructura del sitio web o conectar a bases de datos, entre otras cosas.</p>
+                <p><a href="https://nachoiborraies.github.io/php" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/nodejs/img/logo_node.png">
+            </div>
+            <div class="contenido">
+                <h3>Desarrollo de aplicaciones web con Node.js</h3>
+                <p>Curso de desarrollo de aplicaciones web usando el framework <strong>Node.js</strong> de JavaScript. Se explica cómo crear proyectos, descargar librerías, definir servicios, conectar a bases de datos y desarrollar webs completas.</p>
+                <p><a href="https://nachoiborraies.github.io/nodejs" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/laravel/img/laravel_logo.png">
+            </div>
+            <div class="contenido">
+                <h3>Desarrollo de aplicaciones web con Laravel</h3>
+                <p>Curso de desarrollo de aplicaciones web usando el framework <strong>Laravel</strong> de PHP. Se explica cómo instalar el framework, crear los proyectos, definir las vistas, acceder a fuentes de datos, etc.</p>
+                <p><a href="https://nachoiborraies.github.io/laravel" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <p>
+                    <span class="letra_i">I</span>
+                    <span class="letra_a">A</span>
+                </p>
+            </div>
+            <div class="contenido">
+                <h3>Programación de Inteligencia Artificial</h3>
+                <p>Curso sobre desarrollo de aplicaciones de Inteligencia Artificial usando lenguaje Python. Incluye enlaces al curso de Python anterior, junto con aspectos adicionales como algoritmos de IA habituales, desarrollo de redes neuronales usando Keras/TensorFlow, computación en la nube, etc.</p>
+                <p><a href="https://nachoiborraies.github.io/ia" target="_blank" class="boton">Ver apuntes</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="img/lenguajes.png">
+            </div>
+            <div class="contenido">
+                <h3>Referencia de lenguajes de programación</h3>
+                <p>Web que recopila cómo hacer las cosas típicas en cada lenguaje de programación: condiciones, bucles, clases, arrays, etc. Se incluyen los lenguajes más populares, como Java, Python, JavaScript, C, C++, C#...</p>
+                <p><a href="http://lenguaj.es/" target="_blank" class="boton">Ver web</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion" id="cursos">
+        <h2>Cursos</h2>
+        <p>A continuación muestro un listado de los cursos online que he realizado o en los que he participado, en formato audiovisual. En algunos casos son vídeos cortos o series cortas en YouTube, y en otros casos son cursos completos en la plataforma Udemy (en este caso, de pago).</p>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://img-c.udemycdn.com/course/750x422/3503092_8dd2.jpg">
+            </div>
+            <div class="contenido">
+                <h3>Introducción a la Ingeniería del Software</h3>
+                <p>Curso <strong>Udemy</strong> básico introductorio a las nociones elementales de Ingeniería del Software. Plantea los pasos iniciales a seguir cuando se aborda un proyecto software: definición de requisitos, diagramas de análisis, etc.</p>
+                <p><a href="https://www.udemy.com/course/introduccion-a-la-ingenieria-del-software/" target="_blank" class="boton">Ir al curso</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://img-c.udemycdn.com/course/750x422/2801382_452d_2.jpg">
+            </div>
+            <div class="contenido">
+                <h3>Programación en C#</h3>
+                <p>Curso <strong>Udemy</strong> impartido junto a mi compañero Nacho Cabanes, que cubre todos los aspectos de la programación en lenguaje C#, desde cero hasta nivel avanzado.</p>
+                <p><a href="https://www.udemy.com/course/programacion-en-csharp/" target="_blank" class="boton">Ir al curso</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://img-c.udemycdn.com/course/750x422/3875746_161e.jpg">
+            </div>
+            <div class="contenido">
+                <h3>Programación en Java</h3>
+                <p>Curso <strong>Udemy</strong> impartido junto a mi compañero Nacho Cabanes, que cubre todos los aspectos de la programación en lenguaje Java, desde cero hasta nivel avanzado.</p>
+                <p><a href="https://www.udemy.com/course/programacion-en-java/" target="_blank" class="boton">Ir al curso</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://img-c.udemycdn.com/course/750x422/3281106_9a64.jpg">
+            </div>
+            <div class="contenido">
+                <h3>Programación funcional en Java</h3>
+                <p>Curso <strong>Udemy</strong> sobre el paradigma de programación funcional aplicado al lenguaje Java. Se explican conceptos como las expresiones lambda, muy habituales en este paradigma, y su uso para el tratamiento de colecciones de datos.</p>
+                <p><a href="https://www.udemy.com/course/programacion-funcional-en-java/" target="_blank" class="boton">Ir al curso</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://nachoiborraies.github.io/javascript/img/logo_js.svg">
+            </div>
+            <div class="contenido">
+                <h3>Tutorial rápido sobre JavaScript</h3>
+                <p>Tutorial rápido en <strong>YouTube</strong> sobre cómo usar las principales características de JavaScript: acceso a los elementos del documento, gestión de eventos, validación de formularios...</p>
+                <p><a href="https://www.youtube.com/watch?v=jslG9LloJ28" target="_blank" class="boton">Ir al curso</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/JavaFX_Logo.png/120px-JavaFX_Logo.png">
+            </div>
+            <div class="contenido">
+                <h3>Desarrollo de aplicaciones JavaFX</h3>
+                <p>Tutoriales en <strong>YouTube</strong> sobre desarrollo de aplicaciones usando la librería gráfica JavaFX, desde el entorno IntelliJ. Comprende dos vídeos: uno de introducción y primeros pasos, y otro de desarrollo de aplicaciones más complejas. Idioma inglés.</p>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=PJmU7EmjOKM" target="_blank" class="boton">Tutorial introductorio</a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=YBZMYxBY6to" target="_blank" class="boton">Tutorial avanzado</a>
+                </p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/JavaFX_Logo.png/120px-JavaFX_Logo.png">
+            </div>
+            <div class="contenido">
+                <h3>Desarrollo de videojuegos JavaFX</h3>
+                <p>Tutorial en <strong>YouTube</strong> sobre desarrollo de videojuegos usando la librería gráfica JavaFX. Dividido en varios capítulos para ir construyendo el juego poco a poco. Idioma inglés.</p>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=mw5091MugJI" target="_blank" class="boton">Paso 1</a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=qxugcAq3vHs" target="_blank" class="boton">Paso 2</a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=wQwVvhkiV84" target="_blank" class="boton">Paso 3</a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=HmFZy3CaxMo" target="_blank" class="boton">Paso 4</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
